@@ -1,0 +1,82 @@
+body {
+    background: #f8f8f8;
+}
+
+.menu li{
+    font-style: italic;
+    font-size: 20px;
+    list-style-type: none;
+}
+
+.menu li a{
+    color: #008B8B;
+    text-decoration-line: none;
+}
+
+.description {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.shortDescription {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.fullDescription {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.imageMarker {
+    list-style-image: url('../img/marker.png');
+}
+
+.imageMarker li {
+    color: #5369ba;
+    font-size: 18px;
+    font-weight: bolder;
+    font-style: italic;
+    line-height: 26px;
+}
+
+.imageMarker li b {
+    color: #253280;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: initial;
+}
+
+img[width="300"] {
+    border: 2px solid #253280;
+}
+
+input,
+textarea {
+    width: 300px;
+    color: #000;
+    font: normal 14px Century Gothic, sans-serif;
+}
+
+input {
+    height: 22px;
+}
+
+textarea {
+    height: 66px;
+}
+
+legend,
+label {
+    font-size: 18px;
+}
+
+
+
