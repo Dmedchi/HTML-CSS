@@ -1,0 +1,481 @@
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url(../fonts/Raleway-ExtraBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway-Regular.ttf)
+}
+
+@font-face {
+    font-family: "Raleway-Heavy";
+    src: url(../fonts/Raleway-Heavy.ttf)
+}
+
+@font-face {
+    font-family: "Raleway - SemiBold";
+    src: url(../fonts/Raleway-SemiBold.ttf)
+}
+
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf)
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto - Black";
+    src: url(../fonts/Roboto-Black.ttf)
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    height: 700px;
+    background: #abeafa;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.headerWrapper {
+    height: inherit;
+    position: relative;
+}
+
+.logo {
+    background: url(../img/surfhouse_logo.png ) no-repeat;
+    width: 125px;
+    height: 111px;
+    display: block;
+    position: absolute;
+    left: 69px;
+    top: 25px;
+}
+
+.socialButtons {
+    position: absolute;
+    left: 986px;
+    top: 51px;
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jpFunRide {
+    width: 313px;
+    position: absolute;
+    left: 748px;
+    top: 245px;
+}
+
+.jpFunRideTitle {
+    font-family: "Raleway-ExtraBold", sans-serif;
+    color: #fff51f;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+
+.jpFunRideText {
+    font-family: "Raleway-Regular", sans-serif;
+    color: #fff51f;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 8px;
+}
+
+.jpFunRide button {
+    width: 124px;
+    height: 49px;
+    background: #fff51f;
+    text-align: center;
+    border: none;
+    color: #000000;
+    font-family: "Raleway-Heavy", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 131px;
+    margin-left: 2px;
+}
+
+.welcome {
+    width: 270px;
+    height: 300px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+    background-color: #fff51f;
+    position: absolute;
+    top: 336px;
+}
+
+.welcomeTitle {
+    font-family: "Raleway Bold", sans-serif;
+    color: #333333;
+    font-size: 30px;
+    line-height: 28px;
+    margin-bottom: 21px;
+    margin-left: 1px;
+    text-transform: uppercase;
+}
+
+.welcomeText {
+    color: #333333;
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.content {}
+
+.contentWrapper {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.contentWrapper:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.contentLeft {
+    width: 270px;
+
+}
+
+.menu {
+    background-color: #26d2fc;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000000;
+    font-family: "Roboto - Black", sans-serif;
+    font-size: 14px;
+    line-height: 37px;
+    height: 37px;
+    text-transform: uppercase;
+    padding: 0 42px;
+}
+
+.menu a:first-child {
+    height: 71px;
+    background: #333;
+    color: #fff;
+    line-height: 77px;
+}
+
+.menu a:hover {
+    background: #333;
+    color: #fff;
+}
+
+.nowIsOpen {
+    width: 270px;
+    height: 300px;
+    background-color: #e0e0e0;
+    margin-top: 30px;
+    position: relative;
+}
+
+span {
+    display: block;
+    color: #333333;
+    font-family: "Raleway-Heavy", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 36px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 123px;
+    left: 139px;
+}
+
+.contentRight {
+    width: 870px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.newProductTitle,
+.topProductTitle,
+.saleProductTitle {
+    font-size: 21px;
+    color: #707070;
+    background: #f8f8f8;
+    font-family: "Roboto Black Italic", sans-serif;
+    text-transform: uppercase;
+    padding: 5px 25px;
+    box-sizing: border-box;
+}
+
+.newProductTitle {
+    height: 80px;
+    line-height: 76px;
+}
+
+.topProductTitle {
+    height: 128px;
+    line-height: 76px;
+    position: relative;
+}
+
+.textTop {
+    position: absolute;
+}
+
+.saleProductTitle {
+    height: 128px;
+    line-height: 76px;
+}
+
+.newProductsWrap {
+    width: 100%;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.productWrap {
+    width: 31%;
+    height: 320px;
+    background: #e0e0e0;;
+}
+
+.productWrap:nth-child(n+4) {
+    margin-top: 30px;
+}
+
+.productImg {
+    width: 250px;
+    height: 230px;
+    background: #f8f8f8;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*
+.nameProduct {
+    color: #333333;
+    font-family: "Roboto - Black Italic", sans-serif;
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+}
+
+
+.price {
+    color: #333333;
+    font-family: "Roboto - Black Italic", sans-serif;
+    font-size: 18px;
+    text-align: right;
+    margin-top: 12px;
+    margin-right: 25px;
+    float: right;
+}*/
+
+.topProductsWrap {
+    width: 100%;
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+
+.saleProductsWrap {
+    width: 100%;
+    background: #f8f8f8;;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.otherWrapper {
+    background: #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.brand {
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.textBrand {
+    color: #333333;
+    font-family: "Raleway-Heavy", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.instagramFeed {
+    display: flex;
+    flex-direction: column;
+}
+
+.instagramFeedTitle {
+    height: 105px;
+    background: #eaeaea;
+}
+
+.instagramFeedPhoto {
+    height: 247px;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.photoWrap {
+    width: 185px;
+    height: 185px;
+    background: white;
+}
+
+.photo {
+    width: 175px;
+    height: 175px;
+    background: #d9d9d9;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.socialNetworks {
+    height: 150px;
+    background: thistle;
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook {
+    width: 390px;
+    height: 150px;
+    background: #3b5997;
+}
+
+.twitter {
+    width: 390px;
+    height: 150px;
+    background: #3fccfd;
+}
+
+.pinterest {
+    width: 390px;
+    height: 150px;
+    background: #cb2027;
+}
+
+.footer {
+    color: white;
+    background-color: #373737;
+}
+
+
+.footerWrapper {
+    width: 1170px;
+    height: 301px;
+    margin: 0 auto;
+    background: #373737;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footerCategory {
+    width: 84px;
+    height: 152px;
+    background: #93a3b2;
+}
+
+.ourAccount {
+    width: 113px;
+    height: 160px;
+    background: #93a3b2;
+}
+
+.ourSupport {
+    width: 106px;
+    height: 162px;
+    background: #93a3b2;
+}
+
+.newsLetter {
+    width: 267px;
+    height: 162px;
+    background: #93a3b2;
+}
+
+.aboutUs {
+    width: 232px;
+    height: 162px;
+    background: #93a3b2;
+}
+
+.aboutUs:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.allRightsReserved {
+    height: 50px;
+    background: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
