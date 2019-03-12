@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Контакты</title>
+        <link rel="stylesheet" href="styles/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="img/logo.png" alt="logo">
+                <div class="name">Chromesthesia</div>
+                <div class="menu">
+                    <a href="index.html"><b>Главная</b></a>
+                    <a href="Catalog.html"><b>Каталог</b></a>
+                    <a href="Contacts.html"><b>Контакты</b></a>
+                </div>
+            </div>
+            <hr>
+            <h2>Контакты</h2>
+            <form action="Contacts.html" method="post">
+                <fieldset>
+                    <legend>Напишите нам</legend>
+                    <input type="text" placeholder="Введите ваше имя"><br>
+                    <input class="email" type="email" placeholder="Введите ваш email"><br>
+                    <input type="text" placeholder="Тема сообщения"><br>
+                    <label for="msg">Суть вашего письма:</label><br>
+                    <textarea id="msg" name="textareaContent"></textarea><br>
+                    <button>Отправить</button>
+                </fieldset>
+            </form>
+            <h2>Адрес</h2>
+            <div>
+                <b>Телефон:</b> +7(812)000-11-22<br>
+                <b>Адрес:</b> г.Санкт-Петербург, наб.реки Мойки, д.32<br>
+                <b>Email:</b> сhromesthesia@shop.ru
+            </div>
+            <br>
+            <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aea59ab81fda119f09b6e6e5eb5ceac667dc6ad47b675cab5fe52bdd452e22a27&amp;width=100%25&amp;height=374&amp;lang=ru_RU&amp;scroll=true"></script>
+            <hr>
+            <div class="footer">&copy;Все права защищены.</div>
+        </div>
+    </body>
+</html>
